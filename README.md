@@ -1,6 +1,7 @@
-# Get-Image-From_Gallery
+# Get-Image-From-Gallery
 
-====================================================================================================================
+
+
 1). Put below code to access gallery(For Example : OnclickListener of view)
 
 		if (Build.VERSION.SDK_INT == Build.VERSION_CODES.KITKAT) {
