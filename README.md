@@ -13,7 +13,7 @@
 
         } else if (Build.VERSION.SDK_INT == Build.VERSION_CODES.M) {
 
-            String permission = Common.permissionStorage.getString("storage", "");
+            String permission = permissionStorage.getString("storage", "");
 
             if (permission.equals("true")) {
 
@@ -36,6 +36,8 @@
 
         }
         
+Note : Here "permissionStorage" is an object of SharedPreferences.
+
 ====================================================================================================================
         
 2). Now onActivityResult use following code to get selected imagePath(dataType : String) and Bitmap(dataType : Bitmap) from   that imagePath use following
