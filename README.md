@@ -142,7 +142,7 @@ Note : Here "permissionStorage" is an object of SharedPreferences.
 
             } else {
 
-                Common.editSharedPreferences("storage", "true");
+                editSharedPreferences("storage", "true");
 
             }
 
@@ -152,7 +152,7 @@ Note : Here "permissionStorage" is an object of SharedPreferences.
 
             } else {
 
-                Common.editSharedPreferences("storage", "true");
+                editSharedPreferences("storage", "true");
 
             }
 
@@ -162,7 +162,7 @@ Note : Here "permissionStorage" is an object of SharedPreferences.
 
             } else {
 
-                Common.editSharedPreferences("camera", "true");
+                editSharedPreferences("camera", "true");
 
             }
 
