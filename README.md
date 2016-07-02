@@ -123,7 +123,7 @@ Note : Here "permissionStorage" is an object of SharedPreferences.
         }
     }
     
-3).Only for marshmallow devices to check permission programmatically use below code...
+3). Only for marshmallow devices to check permission programmatically use below code...
 
     private void checkPermission() {
 
